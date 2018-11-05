@@ -4,11 +4,15 @@
              xmlns:local="clr-namespace:TeamRPGApp"
              x:Class="TeamRPGApp.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout Padding="20"
+                 Spacing="20">
+        <Label Text="Welcome to (insert name here)!" 
+               HorizontalOptions="Center"
+               FontSize="24"/>
+        <Image/>
+        <Button Text="New Game"
+                VerticalOptions="EndAndExpand"/>
+        <Button Text="Resume Game"/>
     </StackLayout>
 
 </ContentPage>
