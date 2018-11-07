@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:TeamRPGApp"
-             x:Class="TeamRPGApp.MainPage">
-
-    <StackLayout Padding="20"
+             x:Class="TeamRPGApp.Intro">
+    <ContentPage.Content>
+        <StackLayout Padding="20"
                  Spacing="20">
-        <Label Text="Welcome to (insert name here)!" 
+            <Label Text="Introduction" 
                HorizontalOptions="Center"
                FontSize="24"/>
-        <Image/>
-        <Button Text="New Game"
+            <Image/>
+            <Button Text="Choice A"
                 VerticalOptions="EndAndExpand"
                 />
-        <Button Text="Resume Game"/>
-    </StackLayout>
-
+            <Button Text="Choice B"/>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
