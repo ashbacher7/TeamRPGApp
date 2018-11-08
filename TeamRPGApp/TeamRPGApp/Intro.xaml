@@ -4,15 +4,18 @@
              x:Class="TeamRPGApp.Intro">
     <ContentPage.Content>
         <StackLayout Padding="20"
-                 Spacing="20">
+                     Spacing="20">
             <Label Text="Introduction" 
                HorizontalOptions="Center"
                FontSize="24"/>
             <Image/>
             <Button Text="Choice A"
                 VerticalOptions="EndAndExpand"
-                />
-            <Button Text="Choice B"/>
+                x:Name="ChoiceA"
+                Clicked="ChoiceA_Clicked"/>
+            <Button Text="Choice B"
+                    x:Name="ChoiceB"
+                    Clicked="ChoiceB_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

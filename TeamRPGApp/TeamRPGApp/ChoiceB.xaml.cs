@@ -16,5 +16,13 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
 		}
-	}
+        private void ChoiceAB_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndA());
+        }
+        private void ChoiceBB_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndB());
+        }
+    }
 }
