@@ -27,6 +27,12 @@
     <Compile Update="Choice C\ChoiceC3.xaml.cs">
       <DependentUpon>ChoiceC3.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Endings\EndAB.xaml.cs">
+      <DependentUpon>EndAB.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Endings\EndBG.xaml.cs">
+      <DependentUpon>EndBG.xaml</DependentUpon>
+    </Compile>
     <Compile Update="ViewEnd.xaml.cs">
       <DependentUpon>ViewEnd.xaml</DependentUpon>
     </Compile>
@@ -60,10 +66,31 @@
     <EmbeddedResource Update="Choice C\ChoiceC.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="EndA.xaml">
+    <EmbeddedResource Update="Endings\EndCB.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="EndB.xaml">
+    <EmbeddedResource Update="Endings\EndCG.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndCS.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndBS.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndBB.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndAS.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndAG.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndAB.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndBG.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Intro.xaml">
