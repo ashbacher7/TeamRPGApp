@@ -12,7 +12,8 @@ namespace TeamRPGApp
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 
         private void NewGame_Clicked(object sender, EventArgs e)
         {

@@ -18,10 +18,17 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
-            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-            <Label
+        <Image
+            Source="cityscape.jpg"
+            Grid.Row="0"
+            Grid.RowSpan="6"
+            Grid.ColumnSpan="2"
+            Aspect="AspectFill"
+        />
+
+        <Label
                Text="Mad" 
                TextColor="White"
                HorizontalOptions="Start"
@@ -40,7 +47,7 @@
                FontFamily="TimesNewRoman"
                FontSize="20"
                Grid.Row="0"
-               Grid.RowSpan="4"
+               Grid.RowSpan="3"
             />
 
             <Label 
@@ -52,7 +59,7 @@
                FontFamily="TimesNewRoman"
                FontSize="20"
                Grid.Row="0"
-               Grid.RowSpan="4"
+               Grid.RowSpan="3"
             />
 
             <Button 
@@ -62,7 +69,7 @@
                 BackgroundColor="Black"
                 Grid.Row="4" 
                 Grid.Column="0"
-                Margin="10"
+                Margin="30"
                 Grid.ColumnSpan="2"
                 HeightRequest="25"
                 Clicked="NewGame_Clicked"
@@ -75,7 +82,7 @@
                 BackgroundColor="Black"
                 Grid.Row="5" 
                 Grid.Column="0"
-                Margin="10"
+                Margin="30"
                 Grid.ColumnSpan="2"
                 HeightRequest="25"
                 Clicked="Endings_Clicked"
