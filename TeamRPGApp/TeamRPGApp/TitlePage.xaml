@@ -56,7 +56,7 @@
             />
 
             <Button 
-                x:Name="New Game"
+                x:Name="NewGame"
                 Text="New Game"
                 TextColor="White"
                 BackgroundColor="Black"
