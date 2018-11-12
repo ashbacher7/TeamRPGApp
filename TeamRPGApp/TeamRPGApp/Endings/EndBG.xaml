@@ -5,10 +5,9 @@
     <ContentPage.Content>
         <StackLayout Padding="20"
                      Spacing="20">
-            <Label Text="End B" 
+            <Label Text="End B Good" 
                HorizontalOptions="Center"
                FontSize="24"/>
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
