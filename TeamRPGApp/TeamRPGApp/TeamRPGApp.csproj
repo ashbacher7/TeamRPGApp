@@ -33,6 +33,9 @@
     <Compile Update="Endings\EndBG.xaml.cs">
       <DependentUpon>EndBG.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Intro\Intro6.xaml.cs">
+      <DependentUpon>Intro6.xaml</DependentUpon>
+    </Compile>
     <Compile Update="ViewEnd.xaml.cs">
       <DependentUpon>ViewEnd.xaml</DependentUpon>
     </Compile>
@@ -93,7 +96,22 @@
     <EmbeddedResource Update="Endings\EndBG.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Intro.xaml">
+    <EmbeddedResource Update="Intro\Intro1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Intro\Intro2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Intro\Intro3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Intro\Intro4.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Intro\Intro5.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Intro\Intro6.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ViewEnd.xaml">
