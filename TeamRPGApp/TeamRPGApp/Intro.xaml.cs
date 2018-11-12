@@ -25,5 +25,9 @@ namespace TeamRPGApp
         {
             Navigation.PushAsync(new ChoiceB());
         }
+        private void ChoiceC_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ChoiceB());
+        }
     }
 }
