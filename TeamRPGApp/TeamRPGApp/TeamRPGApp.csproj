@@ -9,22 +9,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Choice A\ChoiceA2.xaml.cs">
+    <Compile Update="Path A\ChoiceA2.xaml.cs">
       <DependentUpon>ChoiceA2.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Choice A\ChoiceA3.xaml.cs">
+    <Compile Update="Path A\ChoiceA3.xaml.cs">
       <DependentUpon>ChoiceA3.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Choice B\ChoiceB2.xaml.cs">
+    <Compile Update="Path B\ChoiceB2.xaml.cs">
       <DependentUpon>ChoiceB2.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Choice B\ChoiceB3.xaml.cs">
+    <Compile Update="Path B\ChoiceB3.xaml.cs">
       <DependentUpon>ChoiceB3.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Choice C\ChoiceC2.xaml.cs">
+    <Compile Update="Path C\ChoiceC2.xaml.cs">
       <DependentUpon>ChoiceC2.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Choice C\ChoiceC3.xaml.cs">
+    <Compile Update="Path C\ChoiceC3.xaml.cs">
       <DependentUpon>ChoiceC3.xaml</DependentUpon>
     </Compile>
     <Compile Update="Endings\EndAB.xaml.cs">
@@ -33,37 +33,40 @@
     <Compile Update="Endings\EndBG.xaml.cs">
       <DependentUpon>EndBG.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Intro.xaml.cs">
+      <DependentUpon>Intro.xaml</DependentUpon>
+    </Compile>
     <Compile Update="ViewEnd.xaml.cs">
       <DependentUpon>ViewEnd.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Choice A\ChoiceA2.xaml">
+    <EmbeddedResource Update="Path A\ChoiceA2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Choice B\ChoiceB2.xaml">
+    <EmbeddedResource Update="Path B\ChoiceB2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Choice C\ChoiceC2.xaml">
+    <EmbeddedResource Update="Path C\ChoiceC2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Choice A\ChoiceA3.xaml">
+    <EmbeddedResource Update="Path A\ChoiceA3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Choice B\ChoiceB3.xaml">
+    <EmbeddedResource Update="Path B\ChoiceB3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Choice C\ChoiceC3.xaml">
+    <EmbeddedResource Update="Path C\ChoiceC3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Choice A\ChoiceA.xaml">
+    <EmbeddedResource Update="Path A\ChoiceA.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Choice B\ChoiceB.xaml">
+    <EmbeddedResource Update="Path B\ChoiceB.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Choice C\ChoiceC.xaml">
+    <EmbeddedResource Update="Path C\ChoiceC.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Endings\EndCB.xaml">
