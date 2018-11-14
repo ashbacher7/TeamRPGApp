@@ -16,5 +16,50 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void EndingAGButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndAG());
+        }
+
+        private void EndingABButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndA());
+        }
+
+        private void EndingASButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndAS());
+        }
+
+        private void EndingBGButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndB());
+        }
+
+        private void EndingBBButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndBB());
+        }
+
+        private void EndingBSButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndBS());
+        }
+
+        private void EndingCGButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndCG());
+        }
+
+        private void EndingCBButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndCB());
+        }
+
+        private void EndingCSButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndCS());
+        }
+    }
 }

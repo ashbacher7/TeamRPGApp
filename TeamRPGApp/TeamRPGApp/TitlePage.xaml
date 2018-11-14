@@ -63,7 +63,7 @@
             />
 
             <Button 
-                x:Name="NewGame"
+                x:Name="NewGameButton"
                 Text="New Game"
                 TextColor="White"
                 BackgroundColor="Black"
@@ -76,8 +76,8 @@
             />
 
             <Button 
-                x:Name="Endings"
-                Text="Endings"
+                x:Name="ViewEndingsButton"
+                Text="View Endings"
                 TextColor="White"
                 BackgroundColor="Black"
                 Grid.Row="5" 

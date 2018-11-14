@@ -16,34 +16,89 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Button
-            
+            <Label
+                x:Name="EndingsAndroid"
+                Text="Android Endings"
+                Grid.Row="0"
+                Grid.ColumnSpan="2"
             />
             <Button
-                
+                x:Name="EndingAGButton"
+                Text="Good End"
+                Grid.Row="1"
+                Grid.Column="0"
+                Clicked="EndingAGButton_Clicked"
             />
             <Button
-                
+                x:Name="EndingABButton"
+                Text="Bad End"
+                Grid.Row="1"
+                Grid.Column="1"
+                Clicked="EndingABButton_Clicked"
+            />
+            <Button
+                x:Name="EndingASButton"
+                Text="Selfish End"
+                Grid.Row="1"
+                Grid.Column="2"
+                Clicked="EndingASButton_Clicked"
             />
 
-            <Button
-                
+            <Label
+                x:Name="EndingsCyberReality"
+                Text="Cyber Reality Endings"
+                Grid.Row="2"
+                Grid.ColumnSpan="2"
             />
             <Button
-                
+                x:Name="EndingBGButton"
+                Text="Good End"
+                Grid.Row="3"
+                Grid.Column="0"
+                Clicked="EndingBGButton_Clicked"
             />
             <Button
-                
+                x:Name="EndingBBButton"
+                Text="Bad End"
+                Grid.Row="3"
+                Grid.Column="1"
+                Clicked="EndingBBButton_Clicked"
+            />
+            <Button
+                x:Name="EndingBSButton"
+                Text="Selfish End"
+                Grid.Row="3"
+                Grid.Column="2"
+                Clicked="EndingBSButton_Clicked"
             />
 
-            <Button
+            <Label
+                x:Name="EndingsSkeletonKey"
+                Text="Skeleton Key Endings"
+                Grid.Row="4"
+                Grid.ColumnSpan="2"
                 
             />
             <Button
-                
+                x:Name="EndingCGButton"
+                Text="Good End"
+                Grid.Row="5"
+                Grid.Column="0"
+                Clicked="EndingCGButton_Clicked"
             />
             <Button
-                
+                x:Name="EndingCBButton"
+                Text="Bad End"
+                Grid.Row="5"
+                Grid.Column="1"
+                Clicked="EndingCBButton_Clicked"
+            />
+            <Button
+                x:Name="EndingCSButton"
+                Text="Selfish End"
+                Grid.Row="5"
+                Grid.Column="2"
+                Clicked="EndingCSButton_Clicked"
             />
             
         </Grid>
