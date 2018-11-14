@@ -9,7 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamRPGApp.iOS", "TeamRPGAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamRPGApp.UWP", "TeamRPGApp\TeamRPGApp.UWP\TeamRPGApp.UWP.csproj", "{874A318B-949F-4391-AD0D-97DA80484676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamRPGApp", "TeamRPGApp\TeamRPGApp\TeamRPGApp.csproj", "{FFB25F66-2F6D-4253-9667-2847D533E045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamRPGApp", "TeamRPGApp\TeamRPGApp\TeamRPGApp.csproj", "{FFB25F66-2F6D-4253-9667-2847D533E045}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8433672B-5C61-4964-AFE6-2C6A5B3428D4}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
