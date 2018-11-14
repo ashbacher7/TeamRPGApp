@@ -5,17 +5,17 @@
     <ContentPage.Content>
         <StackLayout Padding="20"
                      Spacing="20">
-            <Label Text="Choice A" 
+            <Label Text="Choice A1" 
                HorizontalOptions="Center"
                FontSize="24"/>
             <Image/>
-            <Button Text="Choice A"
+            <Button Text="Kill it in front of the android"
                 VerticalOptions="EndAndExpand"
-                x:Name="ChoiceAA"
-                Clicked="ChoiceAA_Clicked"/>
-            <Button Text="Choice B"
-                    x:Name="ChoiceBA"
-                    Clicked="ChoiceBA_Clicked"/>
+                x:Name="ChoiceAB"
+                Clicked="ChoiceAB_Clicked"/>
+            <Button Text="Let it go free"
+                    x:Name="ChoiceAG"
+                    Clicked="ChoiceAG_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
