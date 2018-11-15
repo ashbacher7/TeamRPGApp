@@ -8,6 +8,12 @@
                 <Label Text="End C Bad" 
                HorizontalOptions="Center"
                FontSize="24"/>
-            </StackLayout>
+
+            <Button
+                x:Name="CBtoTitle"
+                Text="To Title"
+                Clicked="CBtoTitle_Clicked"
+            />
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

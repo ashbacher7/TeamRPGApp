@@ -8,6 +8,12 @@
             <Label Text="End B Selfish" 
                HorizontalOptions="Center"
                FontSize="24"/>
+
+            <Button
+                x:Name="BStoTitle"
+                Text="To Title"
+                Clicked="BStoTitle_Clicked"
+            />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

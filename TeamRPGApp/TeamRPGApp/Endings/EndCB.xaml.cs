@@ -16,5 +16,10 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void CBtoTitle_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
+    }
 }

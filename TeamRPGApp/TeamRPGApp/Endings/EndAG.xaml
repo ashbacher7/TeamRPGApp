@@ -8,6 +8,12 @@
             <Label Text="End A Good" 
                HorizontalOptions="Center"
                FontSize="24"/>
+
+            <Button
+                x:Name="AGtoTitle"
+                Text="To Title"
+                Clicked="AGtoTitle_Clicked"
+            />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -15,7 +15,8 @@ namespace TeamRPGApp
 		public ViewEnd ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 
         private void EndingAGButton_Clicked(object sender, EventArgs e)
         {

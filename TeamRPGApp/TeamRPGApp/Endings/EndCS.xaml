@@ -8,6 +8,12 @@
             <Label Text="End C Selfish" 
                HorizontalOptions="Center"
                FontSize="24"/>
+
+            <Button
+                x:Name="CStoTitle"
+                Text="To Title"
+                Clicked="CStoTitle_Clicked"
+            />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
