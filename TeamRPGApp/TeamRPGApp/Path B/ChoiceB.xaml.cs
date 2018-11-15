@@ -18,11 +18,21 @@ namespace TeamRPGApp
 		}
         private void ChoiceAB_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new EndA());
+            Navigation.PushAsync(new Choice2B());
         }
         private void ChoiceBB_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new EndB());
+            Navigation.PushAsync(new Choice2B());
+        }
+
+        private void ChoiceB3_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Choice2B());
+        }
+
+        private void ChoiceB3_Clicked_1()
+        {
+
         }
     }
 }

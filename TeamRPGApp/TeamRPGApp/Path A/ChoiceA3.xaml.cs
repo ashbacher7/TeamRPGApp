@@ -16,5 +16,13 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
 		}
-	}
+        private void ChoiceAG_Clicked(object sender, EventArgs e)
+        {
+            
+        }
+        private void ChoiceAS_Clicked(object sender, EventArgs e)
+        {
+            
+        }
+    }
 }
