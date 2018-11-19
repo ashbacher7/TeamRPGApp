@@ -11,7 +11,7 @@
             <Image/>
             <Button Text="Choice A"
                 VerticalOptions="EndAndExpand"
-                x:Name="ChoiceB"
+                x:Name="ChoiceB1"
                 Clicked="ChoiceAB_Clicked"/>
             <Button Text="Choice B"
                     x:Name="ChoiceB2"
