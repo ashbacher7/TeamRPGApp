@@ -15,6 +15,7 @@ namespace TeamRPGApp
 		public EndAG ()
 		{
 			InitializeComponent ();
+            Globals.AndroidGoodEndShow = true;
 		}
 
         private void AGtoTitle_Clicked(object sender, EventArgs e)

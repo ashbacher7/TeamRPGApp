@@ -15,6 +15,7 @@ namespace TeamRPGApp
 		public ViewEnd ()
 		{
 			InitializeComponent ();
+            EndingAGButton.IsVisible = Globals.AndroidGoodEndShow;
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
