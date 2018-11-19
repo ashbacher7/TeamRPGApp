@@ -5,20 +5,28 @@
     <ContentPage.Content>
         <StackLayout Padding="20"
                      Spacing="20">
-            <Label Text="Introduction" 
+            <Label 
+               Text="Introduction" 
                HorizontalOptions="Center"
-               FontSize="24"/>
+               FontSize="24"
+            />
             <Image/>
-            <Button Text="Choice A"
+            <Button 
+                Text="Choice A"
                 VerticalOptions="EndAndExpand"
                 x:Name="ChoiceA"
-                Clicked="ChoiceA_Clicked"/>
-            <Button Text="Choice B"
-                    x:Name="ChoiceB"
-                    Clicked="ChoiceB_Clicked"/>
-            <Button Text="Choice C"
-                    x:Name="ChoiceC"
-                    Clicked="ChoiceC_Clicked"/>
+                Clicked="ChoiceA_Clicked"
+            />
+            <Button 
+                Text="Choice B"
+                 x:Name="ChoiceB"
+                 Clicked="ChoiceB_Clicked"
+            />
+            <Button 
+                Text="Choice C"
+                 x:Name="ChoiceC"
+                 Clicked="ChoiceC_Clicked"
+            />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
