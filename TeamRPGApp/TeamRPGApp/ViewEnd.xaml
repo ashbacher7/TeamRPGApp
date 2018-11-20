@@ -18,7 +18,7 @@
 
             <Image
                 Source="cyberhallway.jpg"
-                Aspect="AspectFit"
+                Aspect="AspectFill"
                 Grid.Row="0"
                 Grid.RowSpan="6"
                 Grid.ColumnSpan="3"

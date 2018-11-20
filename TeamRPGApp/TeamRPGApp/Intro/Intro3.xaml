@@ -3,14 +3,42 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TeamRPGApp.Intro3">
     <ContentPage.Content>
-        <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
             <Label 
-                Text="Welcome to Xamarin.Forms!"
-                BackgroundColor="Gray"
-                Margin="0,0,0,0"
-                VerticalOptions="EndAndExpand"
-                HorizontalOptions="CenterAndExpand" 
+                Margin="20,20,20,20"
+                Grid.Row="1"
+                BackgroundColor="White"
             />
-        </StackLayout>
+
+            <Entry
+                Placeholder="First Name"
+                PlaceholderColor="Black"
+                Margin="0,50,70,0"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="Start"
+                Grid.Row="1"
+                TextColor="Black"
+            />
+            
+            <Entry
+                Placeholder="Last Name"
+                PlaceholderColor="Black"
+                Margin="0,0,70,50"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="End"
+                Grid.Row="1"
+                TextColor="Black"
+            />
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

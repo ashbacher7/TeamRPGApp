@@ -3,14 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TeamRPGApp.Intro2">
     <ContentPage.Content>
-        <StackLayout>
-            <Label 
-                Text="Please complete your new Id card"
-                BackgroundColor="Gray"
-                Margin="0,0,0,0"
-                VerticalOptions="EndAndExpand"
-                HorizontalOptions="CenterAndExpand" 
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+                Source="introscientist.jpg"
+                Aspect="AspectFill"
+                Grid.RowSpan="2"
             />
-        </StackLayout>
+
+            <Label 
+                Margin="30,40,30,40"
+                Grid.Row="2"
+                BackgroundColor="Gray"
+            />
+
+            <Label 
+                Text="Please complete your new ID card"
+                Margin="0,0,0,0"
+                Grid.Row="2"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+            />
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
