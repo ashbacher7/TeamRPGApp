@@ -12,8 +12,7 @@
             <Button
                 x:Name="ABtoTitle"
                 Text="To Title"
-                Clicked="ABtoTitle_Clicked"
-            />
+                Clicked="ABtoTitle_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
