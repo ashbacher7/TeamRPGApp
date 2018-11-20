@@ -12,6 +12,7 @@ namespace TeamRPGApp
 		public MainPage()
 		{
 			InitializeComponent();
+            ViewEndingsButton.IsVisible = Globals.ViewEndButtonShow;
             NavigationPage.SetHasNavigationBar(this, false);
         }
 

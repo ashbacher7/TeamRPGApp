@@ -16,7 +16,8 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
             Globals.AndroidGoodEndShow = true;
-		}
+            Globals.ViewEndButtonShow = true;
+        }
 
         private void AGtoTitle_Clicked(object sender, EventArgs e)
         {

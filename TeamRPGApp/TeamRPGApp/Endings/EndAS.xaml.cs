@@ -16,7 +16,8 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
             Globals.AndroidSelfishEndShow = true;
-		}
+            Globals.ViewEndButtonShow = true;
+        }
 
         private void AStoTitle_Clicked(object sender, EventArgs e)
         {

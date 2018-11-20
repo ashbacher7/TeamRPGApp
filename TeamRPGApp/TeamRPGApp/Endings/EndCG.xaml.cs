@@ -16,7 +16,8 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
             Globals.SKGoodEndShow = true;
-		}
+            Globals.ViewEndButtonShow = true;
+        }
 
         private void CGtoTitle_Clicked(object sender, EventArgs e)
         {

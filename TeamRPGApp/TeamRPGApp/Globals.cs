@@ -15,5 +15,6 @@ namespace TeamRPGApp
         public static bool SKGoodEndShow = false;
         public static bool SKBadEndShow = false;
         public static bool SKSelfishEndShow = false;
+        public static bool ViewEndButtonShow = false;
     }
 }

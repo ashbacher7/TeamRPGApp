@@ -16,7 +16,8 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
             Globals.CRBadEndShow = true;
-		}
+            Globals.ViewEndButtonShow = true;
+        }
 
         private void BBtoTitle_Clicked(object sender, EventArgs e)
         {
