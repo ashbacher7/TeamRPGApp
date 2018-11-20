@@ -16,6 +16,14 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
             EndingAGButton.IsVisible = Globals.AndroidGoodEndShow;
+            EndingABButton.IsVisible = Globals.AndroidBadEndShow;
+            EndingASButton.IsVisible = Globals.AndroidSelfishEndShow;
+            EndingBGButton.IsVisible = Globals.CRGoodEndShow;
+            EndingBBButton.IsVisible = Globals.CRBadEndShow;
+            EndingBSButton.IsVisible = Globals.CRSelfishEndShow;
+            EndingCGButton.IsVisible = Globals.SKGoodEndShow;
+            EndingCBButton.IsVisible = Globals.SKBadEndShow;
+            EndingCSButton.IsVisible = Globals.SKSelfishEndShow;
             NavigationPage.SetHasNavigationBar(this, false);
         }
 

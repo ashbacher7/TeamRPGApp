@@ -18,11 +18,15 @@ namespace TeamRPGApp
 		}
         private void ChoiceAG_Clicked(object sender, EventArgs e)
         {
-            
+            Navigation.PushAsync(new EndAG());
         }
         private void ChoiceAS_Clicked(object sender, EventArgs e)
         {
-            
+            Navigation.PushAsync(new EndAS());
+        }
+        private void ChoiceAB_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EndA());
         }
     }
 }

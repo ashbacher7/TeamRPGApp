@@ -15,6 +15,7 @@ namespace TeamRPGApp
 		public EndCS ()
 		{
 			InitializeComponent ();
+            Globals.SKSelfishEndShow = true;
 		}
 
         private void CStoTitle_Clicked(object sender, EventArgs e)

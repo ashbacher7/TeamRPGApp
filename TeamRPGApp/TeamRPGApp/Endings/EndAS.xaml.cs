@@ -15,6 +15,7 @@ namespace TeamRPGApp
 		public EndAS ()
 		{
 			InitializeComponent ();
+            Globals.AndroidSelfishEndShow = true;
 		}
 
         private void AStoTitle_Clicked(object sender, EventArgs e)

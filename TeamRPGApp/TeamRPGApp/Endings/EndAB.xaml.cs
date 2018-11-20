@@ -15,6 +15,7 @@ namespace TeamRPGApp
 		public EndA ()
 		{
 			InitializeComponent ();
+            Globals.AndroidBadEndShow = true;
 		}
 
         private void ABtoTitle_Clicked(object sender, EventArgs e)

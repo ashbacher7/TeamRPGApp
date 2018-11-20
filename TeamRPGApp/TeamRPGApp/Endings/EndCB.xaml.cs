@@ -15,6 +15,7 @@ namespace TeamRPGApp
 		public EndCB ()
 		{
 			InitializeComponent ();
+            Globals.SKBadEndShow = true;
 		}
 
         private void CBtoTitle_Clicked(object sender, EventArgs e)
