@@ -4,9 +4,18 @@
              x:Class="TeamRPGApp.Choice3B">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Good"
+                    VerticalOptions="EndAndExpand" 
+                    x:Name="ChoiceBG"
+                Clicked="ChoiceBG_Clicked"
+              />
+
+
+            <Button Text="Good"
+                    VerticalOptions="EndAndExpand"
+                    x:Name="ChoiceBS"
+                    Clicked="ChoiceBS_Clicked"  
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

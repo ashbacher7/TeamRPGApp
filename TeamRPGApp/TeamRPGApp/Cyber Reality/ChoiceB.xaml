@@ -9,11 +9,11 @@
                HorizontalOptions="Center"
                FontSize="24"/>
             <Image/>
-            <Button Text="Choice A"
+            <Button Text="Bad"
                 VerticalOptions="EndAndExpand"
                 x:Name="ChoiceB1"
                 Clicked="ChoiceAB_Clicked"/>
-            <Button Text="Choice B"
+            <Button Text="Good"
                     x:Name="ChoiceB2"
                     Clicked="ChoiceBB_Clicked"/>
             <Button Text="Choice B"
