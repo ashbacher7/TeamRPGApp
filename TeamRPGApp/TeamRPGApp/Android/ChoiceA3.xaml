@@ -16,9 +16,6 @@
             <Button Text="Teach the android to depend on you"
                     x:Name="ChoiceAS"
                     Clicked="ChoiceAS_Clicked"/>
-            <Button Text="bad end"
-                    x:Name="ChoiceAB"
-                    Clicked="ChoiceAB_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -19,10 +19,13 @@ namespace TeamRPGApp
         private void ChoiceAB_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Choice2A());
+            Globals.Score = Globals.Score + 1;
         }
         private void ChoiceAG_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Choice2A());
+            Globals.Score = Globals.Score + 3;
+            
         }
     }
 }
