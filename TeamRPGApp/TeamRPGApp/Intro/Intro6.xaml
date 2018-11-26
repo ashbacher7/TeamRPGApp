@@ -12,18 +12,18 @@
             />
             <Image/>
             <Button 
-                Text="Choice A"
+                Text="Android"
                 VerticalOptions="EndAndExpand"
                 x:Name="ChoiceA"
                 Clicked="ChoiceA_Clicked"
             />
             <Button 
-                Text="Choice B"
+                Text="Cyber Reality"
                  x:Name="ChoiceB"
                  Clicked="ChoiceB_Clicked"
             />
             <Button 
-                Text="Choice C"
+                Text="Skeleton Key"
                  x:Name="ChoiceC"
                  Clicked="ChoiceC_Clicked"
             />
