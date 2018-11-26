@@ -16,5 +16,17 @@ namespace TeamRPGApp
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void ChoiceCG_Clicked(object sender, EventArgs e)
+        {
+            Globals.Score = Globals.Score + 3;
+            Navigation.PushAsync(new Choice2C());
+        }
+
+        private void ChoiceCB_Clicked(object sender, EventArgs e)
+        {
+            Globals.Score = Globals.Score + 1;
+            Navigation.PushAsync(new Choice2C());
+        }
+    }
 }
