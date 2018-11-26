@@ -3,10 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TeamRPGApp.Choice3C">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="20"
+                     Spacing="20">
+            <Label Text="Choice C3" 
+               HorizontalOptions="Center"
+               FontSize="24"/>
+            <Image/>
+            <Button Text="Good Choice"
+                VerticalOptions="EndAndExpand"
+                x:Name="ChoiceCG"
+                Clicked="ChoiceCG_Clicked"/>
+            <Button Text="Selfish Choice"
+                    x:Name="ChoiceCS"
+                    Clicked="ChoiceCS_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
