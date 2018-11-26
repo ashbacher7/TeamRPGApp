@@ -14,6 +14,7 @@ namespace TeamRPGApp
 			InitializeComponent();
             ViewEndingsButton.IsVisible = Globals.ViewEndButtonShow;
             NavigationPage.SetHasNavigationBar(this, false);
+            Globals.Score = 0;
         }
 
         private void NewGame_Clicked(object sender, EventArgs e)

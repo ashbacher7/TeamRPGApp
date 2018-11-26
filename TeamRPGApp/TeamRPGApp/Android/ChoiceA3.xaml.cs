@@ -18,15 +18,35 @@ namespace TeamRPGApp
 		}
         private void ChoiceAG_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new EndAG());
+            Globals.Score = Globals.Score + 3;
+            if (Globals.Score <= 4)
+            {
+                Navigation.PushAsync(new EndA());
+            }
+            if (Globals.Score >= 8)
+            {
+                Navigation.PushAsync(new EndAG());
+            }
+            if (Globals.Score >= 5 && Globals.Score <= 7)
+            {
+                Navigation.PushAsync(new EndAS());
+            }
         }
         private void ChoiceAS_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new EndAS());
-        }
-        private void ChoiceAB_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new EndA());
+            Globals.Score = Globals.Score + 2;
+            if (Globals.Score <= 4)
+            {
+                Navigation.PushAsync(new EndA());
+            }
+            if (Globals.Score >= 8)
+            {
+                Navigation.PushAsync(new EndAG());
+            }
+            if (Globals.Score >= 5 && Globals.Score <= 7)
+            {
+                Navigation.PushAsync(new EndAS());
+            }
         }
     }
 }
