@@ -49,5 +49,6 @@ namespace TeamRPGApp
             {
                 Navigation.PushAsync(new EndBS());
             }
+        }
     }
 }

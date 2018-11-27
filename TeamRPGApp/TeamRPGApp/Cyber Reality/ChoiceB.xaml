@@ -16,9 +16,6 @@
             <Button Text="Good"
                     x:Name="ChoiceB2"
                     Clicked="ChoiceBB_Clicked"/>
-            <Button Text="Choice B"
-                    x:Name="ChoiceB3"
-                    Clicked="ChoiceB3_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

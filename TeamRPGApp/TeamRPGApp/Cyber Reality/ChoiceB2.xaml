@@ -14,7 +14,6 @@
                 x:Name="PathB2A"
                     Clicked="ChoiceB1_Clicked" />
             <Button Text="Selfish"
-                VerticalOptions="EndAndExpand"
                 x:Name="PathB2B"
                   Clicked="PathB2B_Clicked"/>
             

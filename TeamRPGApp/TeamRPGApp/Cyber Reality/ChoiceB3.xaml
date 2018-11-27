@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TeamRPGApp.Choice3B">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="20"
+                     Spacing="20">
             <Button Text="Good"
                     VerticalOptions="EndAndExpand" 
                     x:Name="ChoiceBG"
@@ -11,8 +12,7 @@
               />
 
 
-            <Button Text="Good"
-                    VerticalOptions="EndAndExpand"
+            <Button Text="Selfish"
                     x:Name="ChoiceBS"
                     Clicked="ChoiceBS_Clicked"  
                     />

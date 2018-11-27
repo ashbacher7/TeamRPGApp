@@ -26,10 +26,5 @@ namespace TeamRPGApp
             Navigation.PushAsync(new Choice2B());
             Globals.Score = Globals.Score + 3;
         }
-
-        private void ChoiceB3_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Choice2B());
-        }
     }
 }
