@@ -7,15 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TeamRPGApp
+namespace TeamRPGApp.Endings
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Intro1 : ContentPage
+	public partial class EndEgg : ContentPage
 	{
-		public Intro1 ()
+		public EndEgg ()
 		{
 			InitializeComponent ();
-            NavigationPage.SetHasNavigationBar(this, false);
-        }
+		}
 	}
 }

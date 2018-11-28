@@ -15,7 +15,8 @@ namespace TeamRPGApp
 		public Choice2B ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 
         private void ChoiceB1_Clicked(object sender, EventArgs e)
         {

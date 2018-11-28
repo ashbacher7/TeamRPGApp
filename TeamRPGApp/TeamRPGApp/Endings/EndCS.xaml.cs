@@ -17,6 +17,7 @@ namespace TeamRPGApp
 			InitializeComponent ();
             Globals.SKSelfishEndShow = true;
             Globals.ViewEndButtonShow = true;
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         private void CStoTitle_Clicked(object sender, EventArgs e)

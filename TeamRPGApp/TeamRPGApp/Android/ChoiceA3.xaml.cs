@@ -15,7 +15,8 @@ namespace TeamRPGApp
 		public Choice3A ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
         private void ChoiceAG_Clicked(object sender, EventArgs e)
         {
             Globals.Score = Globals.Score + 3;

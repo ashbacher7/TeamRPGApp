@@ -17,8 +17,8 @@ namespace TeamRPGApp
 			InitializeComponent ();
             Globals.AndroidBadEndShow = true;
             Globals.ViewEndButtonShow = true;
-            
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 
         private void ABtoTitle_Clicked(object sender, EventArgs e)
         {

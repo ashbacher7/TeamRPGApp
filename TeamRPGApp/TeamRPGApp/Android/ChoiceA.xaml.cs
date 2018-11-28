@@ -15,7 +15,8 @@ namespace TeamRPGApp
 		public ChoiceA ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
         private void ChoiceAB_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Choice2A());

@@ -15,6 +15,7 @@ namespace TeamRPGApp
 		public Intro5 ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 	}
 }

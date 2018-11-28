@@ -24,7 +24,6 @@ namespace TeamRPGApp
             EndingCGButton.IsVisible = Globals.SKGoodEndShow;
             EndingCBButton.IsVisible = Globals.SKBadEndShow;
             EndingCSButton.IsVisible = Globals.SKSelfishEndShow;
-            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         private void EndingAGButton_Clicked(object sender, EventArgs e)
