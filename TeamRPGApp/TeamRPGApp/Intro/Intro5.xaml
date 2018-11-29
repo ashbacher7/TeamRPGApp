@@ -24,7 +24,14 @@
                 Margin="30,40,30,40"
                 Grid.Row="2"
                 BackgroundColor="Gray"
-            />
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="Intro5TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
 
             <Label 
                 Text="Welcome to the SWD"
@@ -32,7 +39,14 @@
                 Grid.Row="2"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
-            />
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="Intro5TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

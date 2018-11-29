@@ -24,15 +24,29 @@
                 Margin="30,40,30,40"
                 Grid.Row="2"
                 BackgroundColor="Gray"
-            />
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="Intro2TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
 
             <Label 
-                Text="Please complete your new ID card"
+                Text="Welcome to the SWD"
                 Margin="0,0,0,0"
                 Grid.Row="2"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
-            />
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="Intro2TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
