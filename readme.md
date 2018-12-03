@@ -39,4 +39,4 @@ Then the player will have to enter their name and then navigate through the stor
 
 After you play through one time you can keep playing through to unlock all of the various endings. 
 
-[Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[This video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) hints at future content.
