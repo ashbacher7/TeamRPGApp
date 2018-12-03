@@ -38,7 +38,7 @@ Score system
             if (Globals.Score >= 5 && Globals.Score <= 7)
             {
                 Navigation.PushAsync(new EndBS());
-            }>
+            } >
 
 View End page
 * Used global properties to hide the View End button, as well as each Ending within the View End page.
