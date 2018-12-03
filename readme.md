@@ -2,17 +2,17 @@ Mad Scientist Syndrome RPG
 =======
 
 ## Introduction
-This is a RPG game created by Andrew Ashbacher, Chancellor Banchi, Blake Bicknell and Tianzhuo Ren.
+This is an RPG game created by Andrew Ashbacher, Chancellor Banchi, Blake Bicknell, and Tianzhuo Ren.
 
-The game world outlook is base on near future, when human gradually step in cyber punk generation. 
+The game world outlook is based on near future, where humans gradually step in a cyber punk generation. 
 
-You are a scientist recently recruited by the organization SWD, 
+You are a scientist, recently recruited by the organization SWD.
 
-You have been tasked with developing a new technology for the company, 
+You have been tasked with developing a new technology for the company.
 
-And you personally think you are creating a new technology for the betterment of mankind .
+You personally think you are creating a new technology for the betterment of mankind.
 
-During the game flow, every choice you make will decide what is your ending, 
+During the game flow, every choice you make will decide how it ends.
 
 Will you have a good ending? 
 
@@ -33,4 +33,10 @@ View End page
 * This, in turn, changes the Button.IsVisible statement to true, revealing the button.
 
 ## How to Use
-First the player has to select which story they want to start with, the stories are as follows: Cyber Reality, Android, and Skeleton Key. Then the player will have to enter their name and then navigate through the story making decisions and that will decide what type of ending the player will get to. After you play through one time you can keep playing through to unlock all of the various endings. 
+First the player has to select which story they want to start with, the stories are as follows: Cyber Reality, Android, and Skeleton Key. 
+
+Then the player will have to enter their name and then navigate through the story making decisions. That will decide what type of ending the player will get to. 
+
+After you play through one time you can keep playing through to unlock all of the various endings. 
+
+[Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
