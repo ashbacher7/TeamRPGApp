@@ -24,11 +24,12 @@ It’s all depending on your decision, now, make your choice.
 
 ## Key Features
 Score system
-* Hitting a button adds a value to a Globals.Score property.
+* Hitting a button adds a value to a Globals.Score property. +1 for a bad choice, +2 for a selfish choice, +3 for a good choice.
 * Once the last choice is selected, three if-statements are used to determine the end based on the value of Globals.Score
+* The endings are determined as follows: 4 or less points is a bad ending, 5 to 7 points is a selfish ending, 8 or more is a good ending.
 
 View End page
-* Used global properties to hide the View End button, as well as each Ending within the 
+* Used global properties to hide the View End button, as well as each Ending within the View End page.
 * Once an end page has been reached, the value synonymous to the page will change from false to true.
 * This, in turn, changes the Button.IsVisible statement to true, revealing the button.
 
