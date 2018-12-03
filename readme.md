@@ -1,8 +1,10 @@
 SWD RPG
 =======
 
-## Topic 1
+## Introduction
 
-## Topic 2
+## Key Features
+Score system
+View End page
 
-## Topic 3
+## How to Use
