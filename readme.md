@@ -27,6 +27,18 @@ Score system
 * Hitting a button adds a value to a Globals.Score property. +1 for a bad choice, +2 for a selfish choice, +3 for a good choice.
 * Once the last choice is selected, three if-statements are used to determine the end based on the value of Globals.Score
 * The endings are determined as follows: 4 or less points is a bad ending, 5 to 7 points is a selfish ending, 8 or more is a good ending.
+* Endings determination code: <            if (Globals.Score <= 4)
+            {
+                Navigation.PushAsync(new EndBB());
+            }
+            if (Globals.Score >= 8)
+            {
+                Navigation.PushAsync(new EndB());
+            }
+            if (Globals.Score >= 5 && Globals.Score <= 7)
+            {
+                Navigation.PushAsync(new EndBS());
+            }>
 
 View End page
 * Used global properties to hide the View End button, as well as each Ending within the View End page.
