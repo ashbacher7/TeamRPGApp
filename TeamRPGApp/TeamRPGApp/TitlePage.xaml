@@ -37,8 +37,10 @@
                FontFamily="TimesNewRoman"
                FontSize="20" 
             />
-
-            <Label 
+        <Button Opacity=".2"
+                VerticalOptions="Start"
+                WidthRequest="10"/>
+        <Label 
                Text="Scientist"
                TextColor="White"
                HorizontalOptions="Start"
@@ -48,6 +50,7 @@
                FontSize="20"
                Grid.Row="0"
                Grid.RowSpan="3"
+               
             />
 
             <Label 
@@ -75,6 +78,7 @@
                 Grid.ColumnSpan="2"
                 HeightRequest="25"
                 Clicked="NewGame_Clicked"
+                
             />
 
             <Button 

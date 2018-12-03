@@ -9,19 +9,15 @@
                HorizontalOptions="Center"
                FontSize="24"/>
             <Image/>
-            <Button Text="Choice A"
+            <Button Text="Bad"
                 VerticalOptions="EndAndExpand"
                 x:Name="PathB2A"
                     Clicked="ChoiceB1_Clicked" />
-            <Button Text="Choice B"
-                VerticalOptions="EndAndExpand"
+            <Button Text="Selfish"
                 x:Name="PathB2B"
                   Clicked="PathB2B_Clicked"/>
-            <Button Text="Choice C"
-                VerticalOptions="EndAndExpand"
-                x:Name="PathB2C"
-                    Clicked="PathB2C_Clicked"
-                    />
+            
+                    
 
         </StackLayout>
     </ContentPage.Content>

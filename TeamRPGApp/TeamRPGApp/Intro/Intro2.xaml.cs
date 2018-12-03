@@ -15,6 +15,11 @@ namespace TeamRPGApp
 		public Intro2 ()
 		{
 			InitializeComponent ();
-		}
-	}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+        private void Intro2TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Intro3());
+        }
+    }
 }

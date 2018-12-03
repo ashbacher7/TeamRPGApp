@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TeamRPGApp
+namespace TeamRPGApp.Endings
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Choice3C : ContentPage
+	public partial class EndEgg : ContentPage
 	{
-		public Choice3C ()
+		public EndEgg ()
 		{
 			InitializeComponent ();
 		}

@@ -7,27 +7,18 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TeamRPGApp
+namespace TeamRPGApp.Intro
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Intro : ContentPage
+	public partial class Intro6 : ContentPage
 	{
-		public Intro ()
+		public Intro6 ()
 		{
 			InitializeComponent ();
-            NavigationPage.SetHasNavigationBar(this , false);
 		}
-        private void ChoiceA_Clicked(object sender, EventArgs e)
+        private void Intro6TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ChoiceA());
-        }
-        private void ChoiceB_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new ChoiceB());
-        }
-        private void ChoiceC_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new ChoiceB());
+            Navigation.PushAsync(new Intro());
         }
     }
 }

@@ -15,21 +15,19 @@ namespace TeamRPGApp
 		public Choice2B ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 
         private void ChoiceB1_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Choice3B());
+            Globals.Score = Globals.Score + 1;
         }
 
         private void PathB2B_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Choice3B());
-        }
-
-        private void PathB2C_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Choice3B());
+            Globals.Score = Globals.Score + 2;
         }
     }
 }

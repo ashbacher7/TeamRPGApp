@@ -1,32 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TeamRPGApp.Intro">
+             x:Class="TeamRPGApp.Intro.Intro6">
     <ContentPage.Content>
-        <StackLayout Padding="20"
-                     Spacing="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+                Source="introscientist.jpg"
+                Aspect="AspectFill"
+                Grid.RowSpan="2"
+            />
+
             <Label 
-               Text="Introduction" 
-               HorizontalOptions="Center"
-               FontSize="24"
-            />
-            <Image/>
-            <Button 
-                Text="Choice A"
-                VerticalOptions="EndAndExpand"
-                x:Name="ChoiceA"
-                Clicked="ChoiceA_Clicked"
-            />
-            <Button 
-                Text="Choice B"
-                 x:Name="ChoiceB"
-                 Clicked="ChoiceB_Clicked"
-            />
-            <Button 
-                Text="Choice C"
-                 x:Name="ChoiceC"
-                 Clicked="ChoiceC_Clicked"
-            />
-        </StackLayout>
+                Margin="30,40,30,40"
+                Grid.Row="2"
+                BackgroundColor="Gray"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="Intro6TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label 
+                Text="Welcome to the SWD"
+                Margin="0,0,0,0"
+                Grid.Row="2"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="Intro6TapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
