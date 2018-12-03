@@ -33,9 +33,6 @@
     <Compile Update="Endings\EndBG.xaml.cs">
       <DependentUpon>EndBG.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Intro\IntroChoice.xaml.cs">
-      <DependentUpon>IntroChoice.xaml</DependentUpon>
-    </Compile>
     <Compile Update="ViewEnd.xaml.cs">
       <DependentUpon>ViewEnd.xaml</DependentUpon>
     </Compile>
@@ -112,9 +109,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Intro\Intro5.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Intro\Intro6.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Intro\IntroChoice.xaml">
