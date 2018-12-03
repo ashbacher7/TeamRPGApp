@@ -7,27 +7,40 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TeamRPGApp
+namespace TeamRPGApp.Intro
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Intro : ContentPage
+	public partial class IntroChoice : ContentPage
 	{
-		public Intro ()
+		public IntroChoice ()
 		{
 			InitializeComponent ();
-            NavigationPage.SetHasNavigationBar(this , false);
-		}
-        private void ChoiceA_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new ChoiceA());
+            NavigationPage.SetHasNavigationBar(this, false);
         }
-        private void ChoiceB_Clicked(object sender, EventArgs e)
+
+        private async void ChoiceA_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ChoiceB());
+            var answer = await DisplayAlert("Confirmation", "In this path, you will help the company create an Android for daily use", "Yes", "No");
+            if (answer)
+            {
+                await Navigation.PushAsync(new ChoiceA());
+            }
         }
-        private void ChoiceC_Clicked(object sender, EventArgs e)
+        private async void ChoiceB_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ChoiceC());
+            var answer = await DisplayAlert("Confirmation", "In this path, you will help to create a virtual space that peple can use for numerous reasons", "Yes", "No");
+            if (answer)
+            {
+                await Navigation.PushAsync(new ChoiceB());
+            }
+        }
+        private async void ChoiceC_Clicked(object sender, EventArgs e)
+        {
+            var answer = await DisplayAlert("Confirmation", "In this path, you will create a digital key that will allow access to any system", "Yes", "No");
+            if (answer)
+            {
+                await Navigation.PushAsync(new ChoiceC());
+            }
         }
     }
 }

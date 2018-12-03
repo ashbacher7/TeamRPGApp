@@ -19,7 +19,7 @@ namespace TeamRPGApp
 
         private void NewGame_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Intro());
+            Navigation.PushAsync(new Intro1());
         }
 
         private void Endings_Clicked(object sender, EventArgs e)

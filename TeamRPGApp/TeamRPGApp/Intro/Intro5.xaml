@@ -17,7 +17,7 @@
             <Image
                 Source="introscientist.jpg"
                 Aspect="AspectFill"
-                Grid.RowSpan="2"
+                Grid.RowSpan="3"
             />
 
             <Label 
@@ -34,8 +34,8 @@
             </Label>
 
             <Label 
-                Text="Welcome to the SWD"
-                Margin="0,0,0,0"
+                Text="Since you are such a valuable asset to us, you can chose which of our three projects to work on"
+                Margin="60,0,60,0"
                 Grid.Row="2"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
