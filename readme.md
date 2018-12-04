@@ -33,6 +33,11 @@ View End page
 * Once an end page has been reached, the value synonymous to the page will change from false to true.
 * This, in turn, changes the Button.IsVisible statement to true, revealing the button.
 
+Confirmations
+* Confirmations added to choosing paths and ID card.
+* Uses a DisplayAlert to verify a selection with an option for Yes or No.
+* Yes will proceed, No will stay on the page.
+
 ## How to Use
 First the player has to select which story they want to start with, the stories are as follows: Cyber Reality, Android, and Skeleton Key. 
 
