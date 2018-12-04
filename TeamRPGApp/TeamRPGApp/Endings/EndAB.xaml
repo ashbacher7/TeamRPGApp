@@ -3,16 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TeamRPGApp.EndA">
     <ContentPage.Content>
-        <StackLayout Padding="20"
-                     Spacing="20">
-            <Label Text="End A Bad" 
-               HorizontalOptions="Center"
-               FontSize="24"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
 
-            <Button
-                x:Name="ABtoTitle"
-                Text="To Title"
-                Clicked="ABtoTitle_Clicked"/>
-        </StackLayout>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+                Source=""
+                Aspect="AspectFill"
+                Grid.RowSpan="3"
+            />
+
+            <Label 
+                Margin="30,40,30,40"
+                Grid.Row="2"
+                BackgroundColor="Gray"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="EndABTapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label 
+                Text="Android Bad End"
+                Margin="60,0,60,0"
+                Grid.Row="2"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="EndABTapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

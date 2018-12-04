@@ -16,5 +16,9 @@ namespace TeamRPGApp.Endings
 		{
 			InitializeComponent ();
 		}
-	}
+        private void EndEggTapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
+    }
 }

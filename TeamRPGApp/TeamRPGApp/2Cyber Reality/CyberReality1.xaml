@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TeamRPGApp.EndBS">
+             x:Class="TeamRPGApp._2Cyber_Reality.CyberReality1">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -27,14 +27,14 @@
             >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer
-                        Tapped="EndBSTapGestureRecognizer_Tapped"
+                        Tapped="CR1TapGestureRecognizer_Tapped"
                         NumberOfTapsRequired="1" 
                     />
                 </Label.GestureRecognizers>
             </Label>
 
             <Label 
-                Text="Cyber Reality Selfish End"
+                Text="Welcome to the Cyber Reality Project"
                 Margin="60,0,60,0"
                 Grid.Row="2"
                 VerticalOptions="CenterAndExpand"
@@ -42,7 +42,7 @@
             >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer
-                        Tapped="EndBSTapGestureRecognizer_Tapped"
+                        Tapped="CR1TapGestureRecognizer_Tapped"
                         NumberOfTapsRequired="1" 
                     />
                 </Label.GestureRecognizers>

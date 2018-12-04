@@ -3,10 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TeamRPGApp.Endings.EndEgg">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+                Source=""
+                Aspect="AspectFill"
+                Grid.RowSpan="3"
+            />
+
+            <Label 
+                Margin="30,40,30,40"
+                Grid.Row="2"
+                BackgroundColor="Gray"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="EndEggTapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label 
+                Text="Easter Egg End"
+                Margin="60,0,60,0"
+                Grid.Row="2"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="EndEggTapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

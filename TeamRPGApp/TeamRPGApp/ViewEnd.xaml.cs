@@ -24,6 +24,7 @@ namespace TeamRPGApp
             EndingCGButton.IsVisible = Globals.SKGoodEndShow;
             EndingCBButton.IsVisible = Globals.SKBadEndShow;
             EndingCSButton.IsVisible = Globals.SKSelfishEndShow;
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         private void EndingAGButton_Clicked(object sender, EventArgs e)
@@ -69,6 +70,10 @@ namespace TeamRPGApp
         private void EndingCSButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new EndCS());
+        }
+        private void ViewEndBackTapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
         }
     }
 }

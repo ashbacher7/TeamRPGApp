@@ -3,17 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TeamRPGApp.EndB">
     <ContentPage.Content>
-        <StackLayout Padding="20"
-                     Spacing="20">
-            <Label Text="End B Good" 
-               HorizontalOptions="Center"
-               FontSize="24"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
 
-            <Button
-                x:Name="BGtoTitle"
-                Text="To Title"
-                Clicked="BGtoTitle_Clicked"
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+                Source=""
+                Aspect="AspectFill"
+                Grid.RowSpan="3"
             />
-        </StackLayout>
+
+            <Label 
+                Margin="30,40,30,40"
+                Grid.Row="2"
+                BackgroundColor="Gray"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="EndBGTapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label 
+                Text="Cyber Reality Good End"
+                Margin="60,0,60,0"
+                Grid.Row="2"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="EndBGTapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
