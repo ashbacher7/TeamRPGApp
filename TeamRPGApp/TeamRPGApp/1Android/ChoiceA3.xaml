@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TeamRPGApp.Choice3A">
+             x:Class="TeamRPGApp.Choice3A"
+             BackgroundImage ="chioceA3.png">
     <ContentPage.Content>
         <StackLayout Padding="20"
                      Spacing="20">
             <Label Text="Choice A3" 
                HorizontalOptions="Center"
                FontSize="24"/>
-            <Image/>
+           
             <Button Text="Teach the android to self-depend"
                 VerticalOptions="EndAndExpand"
                 x:Name="ChoiceAG"

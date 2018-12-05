@@ -21,7 +21,7 @@
             />
 
             <Image
-                Source="personel.png" 
+                Source="SWDpersonel.png" 
                 Grid.Row="1"
                 HorizontalOptions="Start"
                 VerticalOptions="Start"
