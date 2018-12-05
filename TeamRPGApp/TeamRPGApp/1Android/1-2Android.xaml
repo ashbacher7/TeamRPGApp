@@ -34,7 +34,7 @@
             </Label>
 
             <Label 
-                Text="Welcome to the Android Project"
+                Text="We are happy to have you aboard, let me introduce you to the group!"
                 Margin="60,0,60,0"
                 Grid.Row="2"
                 VerticalOptions="CenterAndExpand"

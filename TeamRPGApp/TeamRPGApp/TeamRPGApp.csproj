@@ -9,6 +9,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="1Android\1-1Android.xaml.cs">
+      <DependentUpon>1-1Android.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="1Android\1-2Android.xaml.cs">
+      <DependentUpon>1-2Android.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="1Android\1-3ChoiceA.xaml.cs">
+      <DependentUpon>1-3ChoiceA.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="2Cyber Reality\1-1CyberReality.xaml.cs">
+      <DependentUpon>1-1CyberReality.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="3Skeleton Key\1-1SkeletonKey.xaml.cs">
+      <DependentUpon>1-1SkeletonKey.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Choice A\ChoiceA2.xaml.cs">
       <DependentUpon>ChoiceA2.xaml</DependentUpon>
     </Compile>
@@ -39,16 +54,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="1Android\Android1.xaml">
+    <EmbeddedResource Update="1Android\1-1Android.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="1Android\Android2.xaml">
+    <EmbeddedResource Update="1Android\1-2Android.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="2Cyber Reality\CyberReality1.xaml">
+    <EmbeddedResource Update="1Android\1-4Android.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="3Skeleton Key\SkeletonKey1.xaml">
+    <EmbeddedResource Update="2Cyber Reality\1-1CyberReality.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="3Skeleton Key\1-1SkeletonKey.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Choice A\ChoiceA2.xaml">
