@@ -15,7 +15,7 @@
             </Grid.ColumnDefinitions>
 
             <Image
-                Source=""
+                Source="Android12choiceA1.jpg"
                 Aspect="AspectFill"
                 Grid.RowSpan="3"
             />

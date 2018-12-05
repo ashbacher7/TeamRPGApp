@@ -9,7 +9,7 @@
             <Label Text="Choice A2" 
                HorizontalOptions="Center"
                FontSize="24"/>
-            <Image/>
+    
             <Button Text="Show the company what the android can do"
                 VerticalOptions="EndAndExpand"
                 x:Name="ChoiceAB"
