@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TeamRPGApp.EndAG"
-             BackgroundImage ="EndAG.jpg">
+             x:Class="TeamRPGApp.Endings.EndAB1"
+             BackgroundImage ="EndAB.jpg">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -28,14 +28,14 @@
             >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer
-                        Tapped="EndAGTapGestureRecognizer_Tapped"
+                        Tapped="EndAB1TapGestureRecognizer_Tapped"
                         NumberOfTapsRequired="1" 
                     />
                 </Label.GestureRecognizers>
             </Label>
 
             <Label 
-                Text="After Dr. Smith is terminated, you go on to lead the project into greatness. Ushering in a new era for humanity."
+                Text="Android Bad End"
                 Margin="60,0,60,0"
                 Grid.Row="2"
                 VerticalOptions="CenterAndExpand"
@@ -43,7 +43,7 @@
             >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer
-                        Tapped="EndAGTapGestureRecognizer_Tapped"
+                        Tapped="EndABTapGestureRecognizer_Tapped"
                         NumberOfTapsRequired="1" 
                     />
                 </Label.GestureRecognizers>

@@ -35,7 +35,7 @@
             </Label>
 
             <Label 
-                Text="Android Bad End"
+                Text="The company catches wind of your plot with Dr. Smith and both of you are terminated. The progress that followed leads the industry down a dark path of villiany that will surely end up as another Big Brother scenario"
                 Margin="60,0,60,0"
                 Grid.Row="2"
                 VerticalOptions="CenterAndExpand"

@@ -35,7 +35,7 @@
             </Label>
 
             <Label 
-                Text="Android Selfish End"
+                Text="You and Dr. Smith manage to make it out of the company, but not before bringing all of it's secrets with you. You get paid handsomely and are able to live out the rest of your days in peace. (With your new Android maid that is)"
                 Margin="60,0,60,0"
                 Grid.Row="2"
                 VerticalOptions="CenterAndExpand"

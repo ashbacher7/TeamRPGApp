@@ -7,22 +7,19 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TeamRPGApp
+namespace TeamRPGApp.Endings
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class EndAS : ContentPage
+	public partial class EndAG1 : ContentPage
 	{
-		public EndAS ()
+		public EndAG1 ()
 		{
 			InitializeComponent ();
-            Globals.AndroidSelfishEndShow = true;
-            Globals.ViewEndButtonShow = true;
             NavigationPage.SetHasNavigationBar(this, false);
         }
-
-        private void EndASTapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private void EndAG1TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Endings.EndAS1());
+            Navigation.PushAsync(new MainPage());
         }
     }
 }

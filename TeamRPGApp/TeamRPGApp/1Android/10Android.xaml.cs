@@ -7,22 +7,19 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TeamRPGApp
+namespace TeamRPGApp._1Android
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class EndAG : ContentPage
+	public partial class Android10 : ContentPage
 	{
-		public EndAG ()
+		public Android10 ()
 		{
 			InitializeComponent ();
-            Globals.AndroidGoodEndShow = true;
-            Globals.ViewEndButtonShow = true;
             NavigationPage.SetHasNavigationBar(this, false);
         }
-
-        private void EndAGTapGestureRecognizer_Tapped(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Endings.EndAG1());
-        }
+    private void Android10TapGestureRecognizer_Tapped(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new _1Android.Android11());
     }
+}
 }

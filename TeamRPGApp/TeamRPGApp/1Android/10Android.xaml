@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TeamRPGApp.EndAG"
-             BackgroundImage ="EndAG.jpg">
+             x:Class="TeamRPGApp._1Android.Android10">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -16,7 +15,7 @@
             </Grid.ColumnDefinitions>
 
             <Image
-                Source=""
+                Source="Android12choiceA1.jpg"
                 Aspect="AspectFill"
                 Grid.RowSpan="3"
             />
@@ -28,14 +27,14 @@
             >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer
-                        Tapped="EndAGTapGestureRecognizer_Tapped"
+                        Tapped="Android10TapGestureRecognizer_Tapped"
                         NumberOfTapsRequired="1" 
                     />
                 </Label.GestureRecognizers>
             </Label>
 
             <Label 
-                Text="After Dr. Smith is terminated, you go on to lead the project into greatness. Ushering in a new era for humanity."
+                Text="*You enter the door and Dr. Smith leaves you to your work* Hello and welcome to your work area, I am Jayce your assistant. You have a wlecom package on the desk."
                 Margin="60,0,60,0"
                 Grid.Row="2"
                 VerticalOptions="CenterAndExpand"
@@ -43,7 +42,7 @@
             >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer
-                        Tapped="EndAGTapGestureRecognizer_Tapped"
+                        Tapped="Android10TapGestureRecognizer_Tapped"
                         NumberOfTapsRequired="1" 
                     />
                 </Label.GestureRecognizers>

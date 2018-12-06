@@ -22,7 +22,7 @@ namespace TeamRPGApp
 
         private void EndABTapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MainPage());
+            Navigation.PushAsync(new Endings.EndAB1());
         }
     }
 }

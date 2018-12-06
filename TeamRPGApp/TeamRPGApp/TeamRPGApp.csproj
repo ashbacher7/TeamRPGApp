@@ -9,14 +9,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="1Android\1-1Android.xaml.cs">
-      <DependentUpon>1-1Android.xaml</DependentUpon>
+    <Compile Update="1Android\1Android.xaml.cs">
+      <DependentUpon>1Android.xaml</DependentUpon>
     </Compile>
-    <Compile Update="1Android\1-2Android.xaml.cs">
-      <DependentUpon>1-2Android.xaml</DependentUpon>
+    <Compile Update="1Android\2Android.xaml.cs">
+      <DependentUpon>2Android.xaml</DependentUpon>
     </Compile>
-    <Compile Update="1Android\1-3ChoiceA.xaml.cs">
-      <DependentUpon>1-3ChoiceA.xaml</DependentUpon>
+    <Compile Update="1Android\3ChoiceA.xaml.cs">
+      <DependentUpon>3ChoiceA.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="1Android\9ChoiceA2.xaml.cs">
+      <DependentUpon>9ChoiceA2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="1Android\12ChoiceA3.xaml.cs">
+      <DependentUpon>12ChoiceA3.xaml</DependentUpon>
     </Compile>
     <Compile Update="2Cyber Reality\1-1CyberReality.xaml.cs">
       <DependentUpon>1-1CyberReality.xaml</DependentUpon>
@@ -54,13 +60,31 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="1Android\1-1Android.xaml">
+    <EmbeddedResource Update="1Android\10Android.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="1Android\1-2Android.xaml">
+    <EmbeddedResource Update="1Android\11Android.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="1Android\1-4Android.xaml">
+    <EmbeddedResource Update="1Android\1Android.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="1Android\2Android.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="1Android\4Android.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="1Android\5Android.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="1Android\6Android.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="1Android\7Android.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="1Android\8Android.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="2Cyber Reality\1-1CyberReality.xaml">
@@ -94,6 +118,15 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Choice C\ChoiceC.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndAB1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndAG1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Endings\EndAS1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Endings\EndCB.xaml">
