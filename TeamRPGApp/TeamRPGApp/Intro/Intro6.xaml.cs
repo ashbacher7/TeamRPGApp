@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TeamRPGApp.Intro
+namespace TeamRPGApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Intro6 : ContentPage
@@ -18,7 +18,7 @@ namespace TeamRPGApp.Intro
 		}
         private void Intro6TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Intro());
+            Navigation.PushAsync(new IntroChoice());
         }
     }
 }

@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace TeamRPGApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Intro : ContentPage
+	public partial class IntroChoice : ContentPage
 	{
-		public Intro ()
+		public IntroChoice ()
 		{
 			InitializeComponent ();
             NavigationPage.SetHasNavigationBar(this , false);
