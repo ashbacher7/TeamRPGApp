@@ -28,7 +28,7 @@
             >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer
-                        Tapped="EndAB1TapGestureRecognizer_Tapped"
+                        Tapped="EndAG1TapGestureRecognizer_Tapped"
                         NumberOfTapsRequired="1" 
                     />
                 </Label.GestureRecognizers>
@@ -43,7 +43,7 @@
             >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer
-                        Tapped="EndABTapGestureRecognizer_Tapped"
+                        Tapped="EndAG1TapGestureRecognizer_Tapped"
                         NumberOfTapsRequired="1" 
                     />
                 </Label.GestureRecognizers>
