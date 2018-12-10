@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TeamRPGApp.Choice3A"
+             BackgroundImage ="chioceA3.png">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image/>
+
+            <Button 
+                Text="Shoot Dr. Smith"
+                VerticalOptions="EndAndExpand"
+                x:Name="ChoiceAG"
+                Clicked="ChoiceAG_Clicked"
+                Grid.Row="1"
+                Margin="25,0,25,0"
+            />
+
+            <Button 
+                Text="Escape with Dr. Smith"
+                VerticalOptions="EndAndExpand"
+                x:Name="ChoiceAS"
+                Clicked="ChoiceAS_Clicked"
+                Grid.Row="2"
+                Margin="25,50,25,100"
+            />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

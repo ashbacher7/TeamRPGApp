@@ -17,5 +17,14 @@ namespace TeamRPGApp
 			InitializeComponent ();
             NavigationPage.SetHasNavigationBar(this, false);
         }
-	}
+
+        private async void Intro3Button_Clicked(object sender, EventArgs e)
+        {
+            var answer = await DisplayAlert("Confirmation", "Is this your ID card?", "Yes", "No");
+                if (answer)
+            {
+                await Navigation.PushAsync(new Intro4());
+            }
+        }
+    }
 }

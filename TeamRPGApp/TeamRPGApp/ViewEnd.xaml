@@ -25,6 +25,22 @@
                 Grid.ColumnSpan="3"
             />
 
+            <Image
+                x:Name="ViewEndBack"
+                Source="backarrow.png"
+                Aspect="AspectFill"
+                Margin="0,0,70,50"
+                Grid.Row="0"
+                Grid.Column="0"
+            >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="ViewEndBackTapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Image.GestureRecognizers>
+            </Image>
+
             <Label
                 x:Name="EndingsAndroid"
                 Text="Android Endings"

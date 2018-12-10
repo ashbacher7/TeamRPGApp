@@ -20,9 +20,9 @@ namespace TeamRPGApp
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        private void BBtoTitle_Clicked(object sender, EventArgs e)
+        private void EndBBTapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MainPage());
+            Navigation.PushAsync(new _1Android.Android2());
         }
     }
 }

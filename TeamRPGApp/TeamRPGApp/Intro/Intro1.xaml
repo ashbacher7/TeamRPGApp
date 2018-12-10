@@ -17,7 +17,7 @@
             <Image
                 Source="introscientist.jpg"
                 Aspect="AspectFill"
-                Grid.RowSpan="2"
+                Grid.RowSpan="3"
             />
 
             <Label 

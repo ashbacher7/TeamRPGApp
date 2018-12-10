@@ -37,9 +37,13 @@
                FontFamily="TimesNewRoman"
                FontSize="20" 
             />
-        <Button Opacity=".2"
+        
+        <Button Opacity=".15"
                 VerticalOptions="Start"
-                WidthRequest="10"/>
+                WidthRequest="10"
+                Grid.Column="1"
+        />
+        
         <Label 
                Text="Scientist"
                TextColor="White"

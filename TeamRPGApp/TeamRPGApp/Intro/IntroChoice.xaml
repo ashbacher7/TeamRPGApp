@@ -1,32 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TeamRPGApp.IntroChoice">
+             x:Class="TeamRPGApp.Intro.IntroChoice">
     <ContentPage.Content>
-        <StackLayout Padding="20"
-                     Spacing="20">
-            <Label 
-               Text="Introduction" 
-               HorizontalOptions="Center"
-               FontSize="24"
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+                Source="cyberhallway.jpg"
+                Aspect="AspectFill"
+                Grid.Row="0"
+                Grid.RowSpan="5"
             />
-            <Image/>
+
+            <Label
+                Text="Please choose the desired project"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                Margin="0,0,0,75"
+                FontSize="20"
+                FontAttributes="Bold"
+                TextColor="White"
+                Grid.Row="1"
+            />
+
             <Button 
                 Text="Android"
-                VerticalOptions="EndAndExpand"
                 x:Name="ChoiceA"
                 Clicked="ChoiceA_Clicked"
+                Grid.Row="2"
+                Margin="25,25,25,25"
             />
             <Button 
                 Text="Cyber Reality"
-                 x:Name="ChoiceB"
-                 Clicked="ChoiceB_Clicked"
+                x:Name="ChoiceB"
+                Clicked="ChoiceB_Clicked"
+                Grid.Row="3"
+                Margin="25,25,25,25"
             />
             <Button 
                 Text="Skeleton Key"
-                 x:Name="ChoiceC"
-                 Clicked="ChoiceC_Clicked"
+                x:Name="ChoiceC"
+                Clicked="ChoiceC_Clicked"
+                Grid.Row="4"
+                Margin="25,25,25,25"
             />
-        </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

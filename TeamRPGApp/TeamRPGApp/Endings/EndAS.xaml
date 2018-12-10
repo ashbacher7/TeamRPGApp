@@ -1,19 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TeamRPGApp.EndAS">
+             x:Class="TeamRPGApp.EndAS"
+             BackgroundImage ="EndAS.jpeg">
     <ContentPage.Content>
-        <StackLayout Padding="20"
-                     Spacing="20">
-            <Label Text="End A Selfish" 
-               HorizontalOptions="Center"
-               FontSize="24"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
 
-            <Button
-                x:Name="AStoTitle"
-                Text="To Title"
-                Clicked="AStoTitle_Clicked"
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+                Source=""
+                Aspect="AspectFill"
+                Grid.RowSpan="3"
             />
-        </StackLayout>
+
+            <Label 
+                Margin="30,40,30,40"
+                Grid.Row="2"
+                BackgroundColor="Gray"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="EndASTapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label 
+                Text="You and Dr. Smith manage to make it out of the company, but not before bringing all of it's secrets with you. You get paid handsomely and are able to live out the rest of your days in peace. (With your new Android maid that is)"
+                Margin="60,0,60,0"
+                Grid.Row="2"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+            >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="EndASTapGestureRecognizer_Tapped"
+                        NumberOfTapsRequired="1" 
+                    />
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

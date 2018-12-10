@@ -20,7 +20,7 @@ namespace TeamRPGApp
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        private void CGtoTitle_Clicked(object sender, EventArgs e)
+        private void EndCGTapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MainPage());
         }

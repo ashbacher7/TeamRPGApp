@@ -10,23 +10,22 @@ using Xamarin.Forms.Xaml;
 namespace TeamRPGApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ChoiceA : ContentPage
+	public partial class Choice2A : ContentPage
 	{
-		public ChoiceA ()
+		public Choice2A ()
 		{
 			InitializeComponent ();
             NavigationPage.SetHasNavigationBar(this, false);
         }
         private void ChoiceAB_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Choice2A());
+            Navigation.PushAsync(new _1Android.Android10());
             Globals.Score = Globals.Score + 1;
         }
-        private void ChoiceAG_Clicked(object sender, EventArgs e)
+        private void ChoiceAS_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Choice2A());
-            Globals.Score = Globals.Score + 3;
-            
+            Navigation.PushAsync(new _1Android.Android10());
+            Globals.Score = Globals.Score + 2;
         }
     }
 }

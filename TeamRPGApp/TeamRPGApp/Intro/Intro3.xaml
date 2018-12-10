@@ -20,6 +20,14 @@
                 BackgroundColor="White"
             />
 
+            <Image
+                Source="SWDpersonel.png" 
+                Grid.Row="1"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                Margin="50,50,50,50"
+            />
+
             <Entry
                 Placeholder="First Name"
                 PlaceholderColor="Black"
@@ -34,10 +42,21 @@
                 Placeholder="Last Name"
                 PlaceholderColor="Black"
                 Margin="0,0,70,50"
-                HorizontalOptions="EndAndExpand"
+                HorizontalOptions="End"
                 VerticalOptions="End"
                 Grid.Row="1"
                 TextColor="Black"
+            />
+
+            <Button
+                x:Name="Intro3Button"
+                Grid.Row="1"
+                Margin="300,150,17,15"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="End"
+                Clicked="Intro3Button_Clicked"
+                Text="OK"
+                FontSize="10"
             />
         </Grid>
     </ContentPage.Content>

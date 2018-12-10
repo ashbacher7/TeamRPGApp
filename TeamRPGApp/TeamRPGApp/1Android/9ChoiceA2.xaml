@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TeamRPGApp.Choice2A"
+             BackgroundImage ="ChoiceA2.jpg">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image/>
+
+            <Button 
+                Text="You 100% have yourself a deal!"
+                VerticalOptions="EndAndExpand"
+                x:Name="ChoiceAB"
+                Clicked="ChoiceAB_Clicked"
+                Grid.Row="1"
+                Margin="25,0,25,0"
+            />
+
+            <Button 
+                Text="I'll have to think about the risks first"
+                VerticalOptions="EndAndExpand"
+                x:Name="ChoiceAS"
+                Clicked="ChoiceAS_Clicked"
+                Grid.Row="2"
+                Margin="25,50,25,100"
+            />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
